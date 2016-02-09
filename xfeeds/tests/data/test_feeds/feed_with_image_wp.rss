@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Rube&#8217;s WP Hangout</title>
+	<atom:link href="https://rubelongfellow.wordpress.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rubelongfellow.wordpress.com</link>
+	<description>Blogging from the heart of Old Europe, for the time being.</description>
+	<lastBuildDate>Tue, 02 Feb 2016 08:57:58 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+<cloud domain='rubelongfellow.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<image>
+		<url>https://s2.wp.com/i/buttonw-com.png</url>
+		<title>Rube&#8217;s WP Hangout</title>
+		<link>https://rubelongfellow.wordpress.com</link>
+	</image>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://rubelongfellow.wordpress.com/osd.xml" title="Rube&#039;s WP Hangout" />
+	<atom:link rel='hub' href='https://rubelongfellow.wordpress.com/?pushpress=hub'/>
+	<item>
+		<title>Tags</title>
+		<link>https://rubelongfellow.wordpress.com/2016/02/01/tags/</link>
+		<comments>https://rubelongfellow.wordpress.com/2016/02/01/tags/#respond</comments>
+		<pubDate>Mon, 01 Feb 2016 17:36:50 +0000</pubDate>
+		<dc:creator><![CDATA[Rube]]></dc:creator>
+				<category><![CDATA[Gearhead]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[bump]]></category>
+
+		<guid isPermaLink="false">http://rubelongfellow.wordpress.com/2016/02/01/tags/</guid>
+		<description><![CDATA[Now something with some Tags! TAGS!<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=68&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>Now something with some Tags!</p>
+<p></p>
+<p>TAGS!</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/rubelongfellow.wordpress.com/68/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/rubelongfellow.wordpress.com/68/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=68&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>https://rubelongfellow.wordpress.com/2016/02/01/tags/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:content url="https://0.gravatar.com/avatar/35a69973c37e1edbede6ebc06bcc04ce?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">Rube</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Image Post</title>
+		<link>https://rubelongfellow.wordpress.com/2016/01/22/image-post/</link>
+		<comments>https://rubelongfellow.wordpress.com/2016/01/22/image-post/#respond</comments>
+		<pubDate>Fri, 22 Jan 2016 11:17:15 +0000</pubDate>
+		<dc:creator><![CDATA[Rube]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://rubelongfellow.wordpress.com/?p=65</guid>
+		<description><![CDATA[These image posts.  What&#8217;s up with that, right?<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=65&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>These image posts.  What&#8217;s up with that, right?</p>
+<p><img class="alignnone size-full wp-image-43" src="https://rubelongfellow.files.wordpress.com/2013/01/20130119-001031.jpg?w=500" alt="20130119-001031.jpg"   /></p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/rubelongfellow.wordpress.com/65/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/rubelongfellow.wordpress.com/65/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=65&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>https://rubelongfellow.wordpress.com/2016/01/22/image-post/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:content url="https://0.gravatar.com/avatar/35a69973c37e1edbede6ebc06bcc04ce?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">Rube</media:title>
+		</media:content>
+
+		<media:content url="https://rubelongfellow.files.wordpress.com/2013/01/20130119-001031.jpg" medium="image">
+			<media:title type="html">20130119-001031.jpg</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>An Aside</title>
+		<link>https://rubelongfellow.wordpress.com/2016/01/20/markdown-test/</link>
+		<comments>https://rubelongfellow.wordpress.com/2016/01/20/markdown-test/#respond</comments>
+		<pubDate>Wed, 20 Jan 2016 01:45:30 +0000</pubDate>
+		<dc:creator><![CDATA[Rube]]></dc:creator>
+				<category><![CDATA[Blogroll]]></category>
+
+		<guid isPermaLink="false">http://rubelongfellow.wordpress.com/?p=60</guid>
+		<description><![CDATA[&#160; Kind of looks like this.<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=60&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>&nbsp;</p>
+<p>Kind of looks like this.</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/rubelongfellow.wordpress.com/60/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/rubelongfellow.wordpress.com/60/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=60&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>https://rubelongfellow.wordpress.com/2016/01/20/markdown-test/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:content url="https://0.gravatar.com/avatar/35a69973c37e1edbede6ebc06bcc04ce?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">Rube</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>metaWeblog.newPost test post</title>
+		<link>https://rubelongfellow.wordpress.com/2016/01/20/metaweblog-newpost-test-post-3/</link>
+		<comments>https://rubelongfellow.wordpress.com/2016/01/20/metaweblog-newpost-test-post-3/#respond</comments>
+		<pubDate>Wed, 20 Jan 2016 01:31:29 +0000</pubDate>
+		<dc:creator><![CDATA[Rube]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[instagram]]></category>
+		<category><![CDATA[photos]]></category>
+		<category><![CDATA[social]]></category>
+
+		<guid isPermaLink="false">http://rubelongfellow.wordpress.com/?p=58</guid>
+		<description><![CDATA[struct int postid&#8224; string title string description: Post content. string link: Post URL. string userid&#8224;: ID of post author. datetime dateCreated&#8224; datetime date_created_gmt&#8224; datetime date_modified&#8224; (Added in WordPress 3.4) datetime date_modified_gmt&#8224; (Added in WordPress 3.4) string wp_post_thumbnail&#8224; string permaLink&#8224;: Post &#8230; <a href="https://rubelongfellow.wordpress.com/2016/01/20/metaweblog-newpost-test-post-3/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=58&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<ul>
+<li> struct
+<ul>
+<li> int <tt>postid</tt>&#8224;
+</li>
+<li> string <tt>title</tt>
+</li>
+<li> string <tt>description</tt>: Post content.
+</li>
+<li> string <tt>link</tt>: Post URL.
+</li>
+<li> string <tt>userid</tt>&#8224;: ID of post author.
+</li>
+<li> datetime <tt>dateCreated</tt>&#8224;
+</li>
+<li> datetime <tt>date_created_gmt</tt>&#8224;
+</li>
+<li> datetime <tt>date_modified</tt>&#8224; (Added in WordPress 3.4)
+</li>
+<li> datetime <tt>date_modified_gmt</tt>&#8224; (Added in WordPress 3.4)
+</li>
+<li> string <tt>wp_post_thumbnail</tt>&#8224;
+</li>
+<li> string <tt>permaLink</tt>&#8224;: Post URL, equivalent to <tt>link</tt>.
+</li>
+<li> array <tt>categories</tt>: Names of categories assigned to the post.
+</li>
+<li> string <tt>mt_keywords</tt>: Names of tags assigned to the post.
+</li>
+<li> string <tt>mt_excerpt</tt>
+</li>
+<li> string <tt>mt_text_more</tt>: Post &#8220;Read more&#8221; text.
+</li>
+<li> string <tt>wp_more_text</tt>
+</li>
+<li> int <tt>mt_allow_comments</tt>
+</li>
+<li> int <tt>mt_allow_pings</tt>
+</li>
+<li> string <tt>wp_slug</tt>&#8224;
+</li>
+<li> string <tt>wp_password</tt>&#8224;
+</li>
+<li> string <tt>wp_author_id</tt>&#8224;
+</li>
+<li> string <tt>wp_author_display_name</tt>&#8224;
+</li>
+<li> string <tt><a href="/Post_Status_Transitions" title="Post Status Transitions">post_status</a></tt>&#8224;
+</li>
+<li> string <tt>wp_post_format</tt>&#8224; (Added in WordPress 3.1)
+</li>
+<li> bool <tt>sticky</tt>&#8224; (Added in WordPress 2.7.1)
+</li>
+<li> array <tt>custom_fields</tt>&#8224; (Added in WordPress 2.3.2)
+<ul>
+<li> struct
+<ul>
+<li> string <tt>id</tt>
+</li>
+<li> string <tt>key</tt>
+</li>
+<li> string <tt>value</tt>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> struct <tt>enclosure</tt>: Only set if post has an enclosure. (Added in WordPress 2.6.3)
+<ul>
+<li> string <tt>url</tt>
+</li>
+<li> int <tt>length</tt>
+</li>
+<li> string <tt>type</tt>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3><span class="mw-headline" id="Errors">Errors</span></h3>
+<ul>
+<li> 401
+<ul>
+<li> If the user does not have permission to edit this post.
+</li>
+</ul>
+</li>
+<li> 404
+<ul>
+<li> If no post with that <tt>postid</tt> exists.
+</li>
+</ul>
+</li>
+</ul><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/rubelongfellow.wordpress.com/58/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/rubelongfellow.wordpress.com/58/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=58&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>https://rubelongfellow.wordpress.com/2016/01/20/metaweblog-newpost-test-post-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:content url="https://0.gravatar.com/avatar/35a69973c37e1edbede6ebc06bcc04ce?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">Rube</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>metaWeblog.newPost test post</title>
+		<link>https://rubelongfellow.wordpress.com/2016/01/20/metaweblog-newpost-test-post-2/</link>
+		<comments>https://rubelongfellow.wordpress.com/2016/01/20/metaweblog-newpost-test-post-2/#respond</comments>
+		<pubDate>Wed, 20 Jan 2016 01:27:49 +0000</pubDate>
+		<dc:creator><![CDATA[Rube]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[instagram]]></category>
+		<category><![CDATA[photos]]></category>
+		<category><![CDATA[social]]></category>
+
+		<guid isPermaLink="false">http://rubelongfellow.wordpress.com/?p=56</guid>
+		<description><![CDATA[struct int postid&#8224; string title string description: Post content. string link: Post URL. string userid&#8224;: ID of post author. datetime dateCreated&#8224; datetime date_created_gmt&#8224; datetime date_modified&#8224; (Added in WordPress 3.4) datetime date_modified_gmt&#8224; (Added in WordPress 3.4) string wp_post_thumbnail&#8224; string permaLink&#8224;: Post &#8230; <a href="https://rubelongfellow.wordpress.com/2016/01/20/metaweblog-newpost-test-post-2/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=56&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<ul>
+<li> struct
+<ul>
+<li> int <tt>postid</tt>&#8224;
+</li>
+<li> string <tt>title</tt>
+</li>
+<li> string <tt>description</tt>: Post content.
+</li>
+<li> string <tt>link</tt>: Post URL.
+</li>
+<li> string <tt>userid</tt>&#8224;: ID of post author.
+</li>
+<li> datetime <tt>dateCreated</tt>&#8224;
+</li>
+<li> datetime <tt>date_created_gmt</tt>&#8224;
+</li>
+<li> datetime <tt>date_modified</tt>&#8224; (Added in WordPress 3.4)
+</li>
+<li> datetime <tt>date_modified_gmt</tt>&#8224; (Added in WordPress 3.4)
+</li>
+<li> string <tt>wp_post_thumbnail</tt>&#8224;
+</li>
+<li> string <tt>permaLink</tt>&#8224;: Post URL, equivalent to <tt>link</tt>.
+</li>
+<li> array <tt>categories</tt>: Names of categories assigned to the post.
+</li>
+<li> string <tt>mt_keywords</tt>: Names of tags assigned to the post.
+</li>
+<li> string <tt>mt_excerpt</tt>
+</li>
+<li> string <tt>mt_text_more</tt>: Post &#8220;Read more&#8221; text.
+</li>
+<li> string <tt>wp_more_text</tt>
+</li>
+<li> int <tt>mt_allow_comments</tt>
+</li>
+<li> int <tt>mt_allow_pings</tt>
+</li>
+<li> string <tt>wp_slug</tt>&#8224;
+</li>
+<li> string <tt>wp_password</tt>&#8224;
+</li>
+<li> string <tt>wp_author_id</tt>&#8224;
+</li>
+<li> string <tt>wp_author_display_name</tt>&#8224;
+</li>
+<li> string <tt><a href="/Post_Status_Transitions" title="Post Status Transitions">post_status</a></tt>&#8224;
+</li>
+<li> string <tt>wp_post_format</tt>&#8224; (Added in WordPress 3.1)
+</li>
+<li> bool <tt>sticky</tt>&#8224; (Added in WordPress 2.7.1)
+</li>
+<li> array <tt>custom_fields</tt>&#8224; (Added in WordPress 2.3.2)
+<ul>
+<li> struct
+<ul>
+<li> string <tt>id</tt>
+</li>
+<li> string <tt>key</tt>
+</li>
+<li> string <tt>value</tt>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> struct <tt>enclosure</tt>: Only set if post has an enclosure. (Added in WordPress 2.6.3)
+<ul>
+<li> string <tt>url</tt>
+</li>
+<li> int <tt>length</tt>
+</li>
+<li> string <tt>type</tt>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3><span class="mw-headline" id="Errors">Errors</span></h3>
+<ul>
+<li> 401
+<ul>
+<li> If the user does not have permission to edit this post.
+</li>
+</ul>
+</li>
+<li> 404
+<ul>
+<li> If no post with that <tt>postid</tt> exists.
+</li>
+</ul>
+</li>
+</ul><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/rubelongfellow.wordpress.com/56/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/rubelongfellow.wordpress.com/56/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=56&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>https://rubelongfellow.wordpress.com/2016/01/20/metaweblog-newpost-test-post-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:content url="https://0.gravatar.com/avatar/35a69973c37e1edbede6ebc06bcc04ce?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">Rube</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>metaWeblog.newPost test post</title>
+		<link>https://rubelongfellow.wordpress.com/2016/01/20/metaweblog-newpost-test-post/</link>
+		<comments>https://rubelongfellow.wordpress.com/2016/01/20/metaweblog-newpost-test-post/#respond</comments>
+		<pubDate>Wed, 20 Jan 2016 01:26:38 +0000</pubDate>
+		<dc:creator><![CDATA[Rube]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[instagram]]></category>
+		<category><![CDATA[photos]]></category>
+		<category><![CDATA[social]]></category>
+
+		<guid isPermaLink="false">http://rubelongfellow.wordpress.com/?p=54</guid>
+		<description><![CDATA[struct int postid&#8224; string title string description: Post content. string link: Post URL. string userid&#8224;: ID of post author. datetime dateCreated&#8224; datetime date_created_gmt&#8224; datetime date_modified&#8224; (Added in WordPress 3.4) datetime date_modified_gmt&#8224; (Added in WordPress 3.4) string wp_post_thumbnail&#8224; string permaLink&#8224;: Post &#8230; <a href="https://rubelongfellow.wordpress.com/2016/01/20/metaweblog-newpost-test-post/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=54&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<ul>
+<li> struct
+<ul>
+<li> int <tt>postid</tt>&#8224;
+</li>
+<li> string <tt>title</tt>
+</li>
+<li> string <tt>description</tt>: Post content.
+</li>
+<li> string <tt>link</tt>: Post URL.
+</li>
+<li> string <tt>userid</tt>&#8224;: ID of post author.
+</li>
+<li> datetime <tt>dateCreated</tt>&#8224;
+</li>
+<li> datetime <tt>date_created_gmt</tt>&#8224;
+</li>
+<li> datetime <tt>date_modified</tt>&#8224; (Added in WordPress 3.4)
+</li>
+<li> datetime <tt>date_modified_gmt</tt>&#8224; (Added in WordPress 3.4)
+</li>
+<li> string <tt>wp_post_thumbnail</tt>&#8224;
+</li>
+<li> string <tt>permaLink</tt>&#8224;: Post URL, equivalent to <tt>link</tt>.
+</li>
+<li> array <tt>categories</tt>: Names of categories assigned to the post.
+</li>
+<li> string <tt>mt_keywords</tt>: Names of tags assigned to the post.
+</li>
+<li> string <tt>mt_excerpt</tt>
+</li>
+<li> string <tt>mt_text_more</tt>: Post &#8220;Read more&#8221; text.
+</li>
+<li> string <tt>wp_more_text</tt>
+</li>
+<li> int <tt>mt_allow_comments</tt>
+</li>
+<li> int <tt>mt_allow_pings</tt>
+</li>
+<li> string <tt>wp_slug</tt>&#8224;
+</li>
+<li> string <tt>wp_password</tt>&#8224;
+</li>
+<li> string <tt>wp_author_id</tt>&#8224;
+</li>
+<li> string <tt>wp_author_display_name</tt>&#8224;
+</li>
+<li> string <tt><a href="/Post_Status_Transitions" title="Post Status Transitions">post_status</a></tt>&#8224;
+</li>
+<li> string <tt>wp_post_format</tt>&#8224; (Added in WordPress 3.1)
+</li>
+<li> bool <tt>sticky</tt>&#8224; (Added in WordPress 2.7.1)
+</li>
+<li> array <tt>custom_fields</tt>&#8224; (Added in WordPress 2.3.2)
+<ul>
+<li> struct
+<ul>
+<li> string <tt>id</tt>
+</li>
+<li> string <tt>key</tt>
+</li>
+<li> string <tt>value</tt>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li> struct <tt>enclosure</tt>: Only set if post has an enclosure. (Added in WordPress 2.6.3)
+<ul>
+<li> string <tt>url</tt>
+</li>
+<li> int <tt>length</tt>
+</li>
+<li> string <tt>type</tt>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3><span class="mw-headline" id="Errors">Errors</span></h3>
+<ul>
+<li> 401
+<ul>
+<li> If the user does not have permission to edit this post.
+</li>
+</ul>
+</li>
+<li> 404
+<ul>
+<li> If no post with that <tt>postid</tt> exists.
+</li>
+</ul>
+</li>
+</ul><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/rubelongfellow.wordpress.com/54/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/rubelongfellow.wordpress.com/54/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=54&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>https://rubelongfellow.wordpress.com/2016/01/20/metaweblog-newpost-test-post/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:content url="https://0.gravatar.com/avatar/35a69973c37e1edbede6ebc06bcc04ce?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">Rube</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Hosted Thumbnail post</title>
+		<link>https://rubelongfellow.wordpress.com/2016/01/17/hosted-thumbnail-post/</link>
+		<comments>https://rubelongfellow.wordpress.com/2016/01/17/hosted-thumbnail-post/#respond</comments>
+		<pubDate>Sun, 17 Jan 2016 18:29:14 +0000</pubDate>
+		<dc:creator><![CDATA[Rube]]></dc:creator>
+				<category><![CDATA[Gearhead]]></category>
+
+		<guid isPermaLink="false">http://rubelongfellow.wordpress.com/?p=52</guid>
+		<description><![CDATA[Hosted Thumbnail post<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=52&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>Hosted Thumbnail post</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/rubelongfellow.wordpress.com/52/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/rubelongfellow.wordpress.com/52/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=52&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>https://rubelongfellow.wordpress.com/2016/01/17/hosted-thumbnail-post/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://rubelongfellow.files.wordpress.com/2016/01/bark.jpg?w=150" />
+		<media:content url="https://rubelongfellow.files.wordpress.com/2016/01/bark.jpg?w=150" medium="image">
+			<media:title type="html">bark.jpg</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/35a69973c37e1edbede6ebc06bcc04ce?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">Rube</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Archer</title>
+		<link>https://rubelongfellow.wordpress.com/2015/03/03/archer/</link>
+		<comments>https://rubelongfellow.wordpress.com/2015/03/03/archer/#respond</comments>
+		<pubDate>Tue, 03 Mar 2015 11:54:10 +0000</pubDate>
+		<dc:creator><![CDATA[Rube]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://rubelongfellow.wordpress.com/?p=49</guid>
+		<description><![CDATA[<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=49&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p><span class='embed-youtube' style='text-align:center; display: block;'><iframe class='youtube-player' type='text/html' width='500' height='312' src='https://www.youtube.com/embed/9x6KApzgtjU?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' frameborder='0' allowfullscreen='true'></iframe></span></p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/rubelongfellow.wordpress.com/49/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/rubelongfellow.wordpress.com/49/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=49&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>https://rubelongfellow.wordpress.com/2015/03/03/archer/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:content url="https://0.gravatar.com/avatar/35a69973c37e1edbede6ebc06bcc04ce?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">Rube</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Cat Power</title>
+		<link>https://rubelongfellow.wordpress.com/2013/03/12/cat-power/</link>
+		<comments>https://rubelongfellow.wordpress.com/2013/03/12/cat-power/#respond</comments>
+		<pubDate>Tue, 12 Mar 2013 17:08:04 +0000</pubDate>
+		<dc:creator><![CDATA[Rube]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://rubelongfellow.wordpress.com/?p=48</guid>
+		<description><![CDATA[Cat Power &#8211; Ruin (&#8220;SUN&#8221; ANNOUNCEMENT VIDEO) from Cat Power on Vimeo. &#160;<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=48&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<div class="separator" style="text-align:center;"><div class="embed-vimeo" style="text-align: center;"><iframe src="https://player.vimeo.com/video/44253978" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><br />
+<a href="http://vimeo.com/44253978">Cat Power &#8211; Ruin (&#8220;SUN&#8221; ANNOUNCEMENT VIDEO)</a> from <a href="http://vimeo.com/user12184478">Cat Power</a> on <a href="http://vimeo.com">Vimeo</a>.</div>
+<p>&nbsp;</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/rubelongfellow.wordpress.com/48/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/rubelongfellow.wordpress.com/48/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=48&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>https://rubelongfellow.wordpress.com/2013/03/12/cat-power/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:content url="https://0.gravatar.com/avatar/35a69973c37e1edbede6ebc06bcc04ce?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">Rube</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>A fine mess</title>
+		<link>https://rubelongfellow.wordpress.com/2013/03/12/a-fine-mess/</link>
+		<comments>https://rubelongfellow.wordpress.com/2013/03/12/a-fine-mess/#respond</comments>
+		<pubDate>Tue, 12 Mar 2013 17:05:32 +0000</pubDate>
+		<dc:creator><![CDATA[Rube]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://rubelongfellow.wordpress.com/?p=47</guid>
+		<description><![CDATA[They say men have monthly cycles; mood swings; unexplained fits of bitchyness. I&#039;ll agree with that. I remember not wanting to kill people a week or two ago. I remember it vividly, so I&#039;m pretty sure it wasn&#039;t just a &#8230; <a href="https://rubelongfellow.wordpress.com/2013/03/12/a-fine-mess/">Continue reading <span class="meta-nav">&#8594;</span></a><img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=47&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+				<content:encoded><![CDATA[<p>They say men have monthly cycles; mood swings; unexplained fits of bitchyness. </p>
+<p>I&#039;ll agree with that.  I remember not wanting to kill people a week or two ago.  I remember it vividly, so I&#039;m pretty sure it wasn&#039;t just a dream that I wished to become a memory.</p>
+<p>Bitchy.</p><br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/rubelongfellow.wordpress.com/47/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/rubelongfellow.wordpress.com/47/" /></a> <img alt="" border="0" src="https://pixel.wp.com/b.gif?host=rubelongfellow.wordpress.com&#038;blog=515274&#038;post=47&#038;subd=rubelongfellow&#038;ref=&#038;feed=1" width="1" height="1" />]]></content:encoded>
+			<wfw:commentRss>https://rubelongfellow.wordpress.com/2013/03/12/a-fine-mess/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:content url="https://0.gravatar.com/avatar/35a69973c37e1edbede6ebc06bcc04ce?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">Rube</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>

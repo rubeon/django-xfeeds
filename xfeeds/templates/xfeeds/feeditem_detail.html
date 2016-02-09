@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block pagetitle %}{{ object.title }} // Xfeeds {% endblock %}
+{% block maincontent %}
+<!-- xfeeds/feeditem_list.html -->
+<header>
+    <h2><a href="{{ object.link }}">{{ object.title }}</a></h2>
+</header>
+<article>
+
+    {{ object.description|safe }}
+
+<footer><a href="{{ object.link }}">Continue reading on '{{ object.source.feed_title }}'</a></footer>
+</article>
+
+<p><a href="{% url 'xfeeds:feed-list' %}?page={{ request.GET.rp }}#{{object.id }}">&larr; Back to List</a></p>
+{% endblock %}

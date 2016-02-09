@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://straightwhiteguy.mu.nu/">
+<title>Straight White Guy</title>
+<link>http://straightwhiteguy.mu.nu/</link>
+<description>.. something everyone should read at least once in their life... maybe...</description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2015-03-28T04:42:21-05:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=2.64" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/355801.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/353672.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/350811.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/349830.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/349088.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/348834.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/347004.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/344562.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/344164.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/344044.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/343260.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/343112.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/342385.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/342282.php" />
+<rdf:li rdf:resource="http://straightwhiteguy.mu.nu/archives/341293.php" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/355801.php">
+<title>Speech 101.....</title>
+<link>http://straightwhiteguy.mu.nu/archives/355801.php</link>
+<description>.... I gave this speech just a few weeks ago while in college....... I do so hope that you enjoy....... Good morning, class. Today I have been asked to give an informative speech, just like the rest of you. And...</description>
+<dc:subject>R W Service</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2015-03-28T04:42:21-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/353672.php">
+<title>Chestnuts......</title>
+<link>http://straightwhiteguy.mu.nu/archives/353672.php</link>
+<description>..... when I was a little boy I grew up listening to the tales of my Appalachian grandparents...... they&apos;d talk of endless game in the forest, spending the summers out away from the farm roaming the mountains.... camping, fishing, and...</description>
+<dc:subject>SWG Stories</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2014-12-10T21:33:20-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/350811.php">
+<title>Jokers.......</title>
+<link>http://straightwhiteguy.mu.nu/archives/350811.php</link>
+<description>...... so, having been raised in and around a very small town in the Tennessee Valley - just off the western slope of the Appalachians - I often hear stories from the locals that just make me shake my little...</description>
+<dc:subject>SWG Stories</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2014-07-29T18:58:15-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/349830.php">
+<title>Declaration.....</title>
+<link>http://straightwhiteguy.mu.nu/archives/349830.php</link>
+<description>..... if you can read the Declaration of Independence without getting a tear in your eye then there is something very wrong with you and your understanding of American History........</description>
+<dc:subject>Military Stuff</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2014-06-14T09:12:59-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/349088.php">
+<title>Headlights....</title>
+<link>http://straightwhiteguy.mu.nu/archives/349088.php</link>
+<description>..... this past semester at college was an interesting one....... in spite of irritating my communist American History II professor, I still managed to pull a 91 for a final grade, and I found a laughingly large amount of satisfaction...</description>
+<dc:subject>Music</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2014-05-11T07:19:43-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/348834.php">
+<title>Slowly....</title>
+<link>http://straightwhiteguy.mu.nu/archives/348834.php</link>
+<description>.....she looked up from the hammock as I stood nearby holding a glass of wine, &quot;is that tree dead&quot;, she said in a concerned sort of way....... I slowly wheeled around and paced towards the tree as the April sunlight...</description>
+<dc:subject>Thinking</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2014-04-29T05:13:04-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/347004.php">
+<title>Nuts.....</title>
+<link>http://straightwhiteguy.mu.nu/archives/347004.php</link>
+<description>.... I spent a bit of the time during last night&apos;s Sochi Olympic opening hulling a few walnuts for this morning&apos;s banana bread....... initially I just put two walnuts in the palm of my hand and pressed them together until...</description>
+<dc:subject>SWG Stories</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2014-02-08T09:37:31-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/344562.php">
+<title>Originals.....</title>
+<link>http://straightwhiteguy.mu.nu/archives/344562.php</link>
+<description>.... dug up from back in 2005..... maybe I should dust this thing off again and start writing...... &quot;... I had the windows open last night, most of the lights turned down.... I was enjoying the smell of the damp...</description>
+<dc:subject>Blogging</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2013-10-29T09:08:06-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/344164.php">
+<title>Birthdays....</title>
+<link>http://straightwhiteguy.mu.nu/archives/344164.php</link>
+<description>.... found out today that I share my birthday with men of note..... e.e. cummings and Dwight D. Eisenhower....... hey, who knew?...... we Libras are such even-keeled fellows...... .... anyway, I will share a bit of Mr. Cummings&apos; work with...</description>
+<dc:subject>Poetry</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2013-10-14T20:12:49-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/344044.php">
+<title>Blogmeet..... the 9th.....</title>
+<link>http://straightwhiteguy.mu.nu/archives/344044.php</link>
+<description>.... two weeks, folks......... good lord, I cannot wait to see every again......... you guys have made this a great little run.......</description>
+<dc:subject>Blogging</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2013-10-09T20:22:57-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/343260.php">
+<title>Reminder.....</title>
+<link>http://straightwhiteguy.mu.nu/archives/343260.php</link>
+<description>.... originally posted in May of 2005, I was recently reminded of this story for a completely different reason........ A Gentle Man ... when I was about six months old, my Mother and Father were living in a small, rented...</description>
+<dc:subject>Blogging</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2013-09-09T18:52:27-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/343112.php">
+<title>Ubiquitous.....</title>
+<link>http://straightwhiteguy.mu.nu/archives/343112.php</link>
+<description>...... I heard this today on the radio and loved it......... some voices are just made to read poetry....... check this out.... I have always loved the word &quot;ubiquitous&quot;...... The Ubiquitous Day Lily of July by David Budbill There is...</description>
+<dc:subject>Poetry</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2013-09-04T20:22:48-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/342385.php">
+<title>Respect....</title>
+<link>http://straightwhiteguy.mu.nu/archives/342385.php</link>
+<description>.... I have had a subscription to Military History Magazine for the past ten years..... and while I always enjoy every issue, a recent issue had a small article entitled &quot;Hallowed Ground&quot; that brought me nearly to tears....... and it...</description>
+<dc:subject>Military Stuff</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2013-08-09T20:05:18-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/342282.php">
+<title>Harvesting....</title>
+<link>http://straightwhiteguy.mu.nu/archives/342282.php</link>
+<description>.... Epic Failure regarding this year&apos;s peach harvest...... all THREE peaches that made it to maturity on my tiny little peach tree were munched by roving deer two nights ago..... the upside?.... well, I don&apos;t have to meander across the...</description>
+<dc:subject>Ummm, Ok....</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2013-08-06T08:20:27-05:00</dc:date>
+</item>
+<item rdf:about="http://straightwhiteguy.mu.nu/archives/341293.php">
+<title>More Waits....</title>
+<link>http://straightwhiteguy.mu.nu/archives/341293.php</link>
+<description>... once again, The Missus is reading a book and it begins with a quote from Mr. Waits......... she brought it to me and I read it....... she cocked her head inquisitively..... I simply began to sing....... after I was...</description>
+<dc:subject>Music</dc:subject>
+<dc:creator>Eric</dc:creator>
+<dc:date>2013-06-28T20:30:24-05:00</dc:date>
+</item>
+
+
+</rdf:RDF>

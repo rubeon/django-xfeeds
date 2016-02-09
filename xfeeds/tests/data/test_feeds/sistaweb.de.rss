@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	>
+
+<channel>
+	<title>Sistaweb</title>
+	<atom:link href="http://sistaweb.de/feed/" rel="self" type="application/rss+xml" />
+	<link>http://sistaweb.de</link>
+	<description>Sistas doin' it for themselves</description>
+	<pubDate>Mon, 02 Jan 2012 22:45:39 +0000</pubDate>
+	<generator>http://wordpress.org/?v=2.6.5</generator>
+	<language>en</language>
+			<item>
+		<title>Archaelogy</title>
+		<link>http://sistaweb.de/2012/01/02/archaelogy/</link>
+		<comments>http://sistaweb.de/2012/01/02/archaelogy/#comments</comments>
+		<pubDate>Mon, 02 Jan 2012 22:45:39 +0000</pubDate>
+		<dc:creator>A-Heldin</dc:creator>
+		
+		<category><![CDATA[it's all about me]]></category>
+
+		<category><![CDATA[living]]></category>
+
+		<category><![CDATA[memory lane]]></category>
+
+		<guid isPermaLink="false">http://sistaweb.de/?p=1580</guid>
+		<description><![CDATA[New year&#8217;s eve day 2011 is when we last talked about it. Dusting the shelves, rearranging the furniture and bringing in a few fresh flowers. I sneaked into the abode when she went to bed earlier, to see how it looked like, how it felt. And I gotta say maybe&#8230; maybe I can picture myself [...]]]></description>
+		<wfw:commentRss>http://sistaweb.de/2012/01/02/archaelogy/feed/</wfw:commentRss>
+		</item>
+		<item>
+		<title>For your sabbatical, sweetie (Now the old heroines are dead, long live the heroines!)</title>
+		<link>http://sistaweb.de/2009/04/29/for-your-sabbatical-sweetie-now-the-old-heroines-are-dead-long-live-the-heroines/</link>
+		<comments>http://sistaweb.de/2009/04/29/for-your-sabbatical-sweetie-now-the-old-heroines-are-dead-long-live-the-heroines/#comments</comments>
+		<pubDate>Tue, 28 Apr 2009 23:51:42 +0000</pubDate>
+		<dc:creator>A-Heldin</dc:creator>
+		
+		<category><![CDATA[weblogs]]></category>
+
+		<guid isPermaLink="false">http://sistaweb.de/?p=1576</guid>
+		<description><![CDATA[
+
+]]></description>
+		<wfw:commentRss>http://sistaweb.de/2009/04/29/for-your-sabbatical-sweetie-now-the-old-heroines-are-dead-long-live-the-heroines/feed/</wfw:commentRss>
+		</item>
+		<item>
+		<title>Ich mach jetzt Schluss</title>
+		<link>http://sistaweb.de/2009/04/14/ich-mach-jetzt-schluss/</link>
+		<comments>http://sistaweb.de/2009/04/14/ich-mach-jetzt-schluss/#comments</comments>
+		<pubDate>Tue, 14 Apr 2009 14:06:15 +0000</pubDate>
+		<dc:creator>E-Heldin</dc:creator>
+		
+		<category><![CDATA[abschlußarbeit]]></category>
+
+		<category><![CDATA[general]]></category>
+
+		<category><![CDATA[it's all about me]]></category>
+
+		<guid isPermaLink="false">http://sistaweb.de/?p=1574</guid>
+		<description><![CDATA[In meinem Leben hab ich ja hier und da schonmal Schluss gemacht. Eigentlich war ich so gut wie immer diejenige, die Schluss gemacht hat. Beruflich, freundschaftlich, partnerschaftlich: Wenn man es einfach nicht mehr erträgt, das Gefühl von Einsamkeit oder Unverständnis zu erdulden, spätestens dann war es immer Zeit, das klärende Gespräch zu suchen.
+Und auch hier [...]]]></description>
+		<wfw:commentRss>http://sistaweb.de/2009/04/14/ich-mach-jetzt-schluss/feed/</wfw:commentRss>
+		</item>
+		<item>
+		<title>&#8230;</title>
+		<link>http://sistaweb.de/2009/03/27/1572/</link>
+		<comments>http://sistaweb.de/2009/03/27/1572/#comments</comments>
+		<pubDate>Fri, 27 Mar 2009 16:01:50 +0000</pubDate>
+		<dc:creator>E-Heldin</dc:creator>
+		
+		<category><![CDATA[life's a bitch]]></category>
+
+		<guid isPermaLink="false">http://sistaweb.de/?p=1572</guid>
+		<description><![CDATA[Anne-Marie ist tot.
+]]></description>
+		<wfw:commentRss>http://sistaweb.de/2009/03/27/1572/feed/</wfw:commentRss>
+		</item>
+		<item>
+		<title>Sonntägliches Menü</title>
+		<link>http://sistaweb.de/2009/03/23/sonntagliches-menu/</link>
+		<comments>http://sistaweb.de/2009/03/23/sonntagliches-menu/#comments</comments>
+		<pubDate>Mon, 23 Mar 2009 07:55:59 +0000</pubDate>
+		<dc:creator>E-Heldin</dc:creator>
+		
+		<category><![CDATA[it's all about me]]></category>
+
+		<category><![CDATA[recipes]]></category>
+
+		<guid isPermaLink="false">http://sistaweb.de/?p=1567</guid>
+		<description><![CDATA[Gestern hab ich erfolgreich meinen ersten Eintopf gezaubert. Auch wenn der Eintopf wegen Gemüse-Übermengen kurzfristig ein Zweitopf wurde. Schmecken tut er trotzdem und für die (Wunsch-)Mütter unter den Lesern hier eine eingeklammerte Zutatenliste (Suppenrindfleisch, Kartoffeln, Sellerie, Möhren, Lauch, Kohlrabi, Salz, Petersilie, Pfeffer, Kümmel, Rosmarin).
+Jetzt riecht meine Wohnung nach traditioneller Familienkost und irgendwie macht&#8217;s das direkt [...]]]></description>
+		<wfw:commentRss>http://sistaweb.de/2009/03/23/sonntagliches-menu/feed/</wfw:commentRss>
+		</item>
+		<item>
+		<title>Morgendliche Zickerei</title>
+		<link>http://sistaweb.de/2009/03/18/morgendliche-zickerei/</link>
+		<comments>http://sistaweb.de/2009/03/18/morgendliche-zickerei/#comments</comments>
+		<pubDate>Wed, 18 Mar 2009 07:53:10 +0000</pubDate>
+		<dc:creator>E-Heldin</dc:creator>
+		
+		<category><![CDATA[girl's stuff]]></category>
+
+		<guid isPermaLink="false">http://sistaweb.de/?p=1565</guid>
+		<description><![CDATA[Facebook ist doof.
+Es gibt Leute, die beschäftigen sich seit Einrichtung ihres Profils mit nix anderem mehr in ihrer privaten Online-Zeit.
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-
+Neues Büro im gleichen Gebäude zu haben wie Leute, die man schon seit Jahren nicht leiden kann, ist auch doof.
+Da sind dann Emails mit &#8220;Willkommen zurück in der Familie&#8221; gepaart mit einem doofen Zwinkersmiley genau das, [...]]]></description>
+		<wfw:commentRss>http://sistaweb.de/2009/03/18/morgendliche-zickerei/feed/</wfw:commentRss>
+		</item>
+		<item>
+		<title>15. März - ladida&#8230;</title>
+		<link>http://sistaweb.de/2009/03/15/15-marz-ladida/</link>
+		<comments>http://sistaweb.de/2009/03/15/15-marz-ladida/#comments</comments>
+		<pubDate>Sun, 15 Mar 2009 09:49:50 +0000</pubDate>
+		<dc:creator>E-Heldin</dc:creator>
+		
+		<category><![CDATA[general]]></category>
+
+		<category><![CDATA[it's all about me]]></category>
+
+		<guid isPermaLink="false">http://sistaweb.de/?p=1541</guid>
+		<description><![CDATA[Heute Morgen um 6h30 nach Hause gekommen. Jetzt hellwach und restalkoholisiert. Ich habe mindestens drei weiße Haare auf dem Kopf. Und weil die Sonne scheint, kann ich nicht mehr schlafen. Trotz Kater. Meine Wohnnung sieht aus wie geleckt. Kein Qualmgeruch. Kein verklebter Boden. Die Vorglühmannschaft hat tatsächlich nur schöne Blumengestecke, gebrauchtes Geschirr und Sektgläser hinterlassen. [...]]]></description>
+		<wfw:commentRss>http://sistaweb.de/2009/03/15/15-marz-ladida/feed/</wfw:commentRss>
+		</item>
+		<item>
+		<title>Büro-Gemetzel&#8230;</title>
+		<link>http://sistaweb.de/2009/03/10/buro-gemetzel/</link>
+		<comments>http://sistaweb.de/2009/03/10/buro-gemetzel/#comments</comments>
+		<pubDate>Tue, 10 Mar 2009 20:18:00 +0000</pubDate>
+		<dc:creator>E-Heldin</dc:creator>
+		
+		<category><![CDATA[life's a bitch]]></category>
+
+		<category><![CDATA[working]]></category>
+
+		<guid isPermaLink="false">http://sistaweb.de/?p=1553</guid>
+		<description><![CDATA[  
+Darf ich meine neuen Büro-Kollegen vorstellen?
+Anne-Marie, der schwarze, schlanke Teleskopfisch mit den knuffigen Kugelaugen.
+Horst, der muntere Goldfisch mit dem glitzernden weißen Bäuchlein.
+Terrorist, (ein Gurami) der schon länger im Büro wohnt und Horst und den vier anderen goldigen Wasserbewohnern die Schuppen vom Rücken gefressen hat. Nur Anne-Marie, die hat er in Ruhe gelassen. Die [...]]]></description>
+		<wfw:commentRss>http://sistaweb.de/2009/03/10/buro-gemetzel/feed/</wfw:commentRss>
+		</item>
+		<item>
+		<title>Alles neu macht der Frühling</title>
+		<link>http://sistaweb.de/2009/03/02/alles-neu-macht-der-fruhling/</link>
+		<comments>http://sistaweb.de/2009/03/02/alles-neu-macht-der-fruhling/#comments</comments>
+		<pubDate>Mon, 02 Mar 2009 06:17:09 +0000</pubDate>
+		<dc:creator>E-Heldin</dc:creator>
+		
+		<category><![CDATA[it's all about me]]></category>
+
+		<category><![CDATA[working]]></category>
+
+		<guid isPermaLink="false">http://sistaweb.de/?p=1549</guid>
+		<description><![CDATA[Fühle mich wie an meinem ersten Schultag:
+Positiv gespannt, ein bisschen aufgeregt und unsicher ob der schon bald routinierten Bahnfahrt in die Landeshauptstadt. Hach, Bahnfahren&#8230; hach, Düsseldorf&#8230; hach, eine neue Morgen- und Abend-Skyline&#8230; hach, endlich: der so lang herbei gesehnte neue Job&#8230;
+]]></description>
+		<wfw:commentRss>http://sistaweb.de/2009/03/02/alles-neu-macht-der-fruhling/feed/</wfw:commentRss>
+		</item>
+		<item>
+		<title>Wenn es einen Soundtrack gäbe&#8230;</title>
+		<link>http://sistaweb.de/2009/02/26/wenn-es-einen-soundtrack-gabe/</link>
+		<comments>http://sistaweb.de/2009/02/26/wenn-es-einen-soundtrack-gabe/#comments</comments>
+		<pubDate>Thu, 26 Feb 2009 22:50:50 +0000</pubDate>
+		<dc:creator>E-Heldin</dc:creator>
+		
+		<category><![CDATA[it's all about me]]></category>
+
+		<category><![CDATA[memory lane]]></category>
+
+		<guid isPermaLink="false">http://sistaweb.de/?p=1547</guid>
+		<description><![CDATA[Düsseldorf. Sushi. 2 Gläser Wein.
+Rückfahrt mit der S11. Richtung Bergisch Gladbach.
+Und das erste Mal in meinem Leben - den Rhein überquerend - höre ich dieses Lied:
+
+]]></description>
+		<wfw:commentRss>http://sistaweb.de/2009/02/26/wenn-es-einen-soundtrack-gabe/feed/</wfw:commentRss>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block maincontent %}
+<!-- xfeeds/feeditem_list.html -->
+<h2>All Feed Items</h2>
+<ul>
+{% for object in object_list %}
+{% ifchanged %}
+<li class="feed-name"><h3>{{ object.source.feed_title }}</h3></li>
+{% endifchanged %}
+<li><a id="{{ object.id }}" href="{% url "xfeeds:feeditem-detail" pk=object.id %}?rp={{ page_obj.number }}">{{ object.title}}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}
