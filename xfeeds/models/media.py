@@ -1,8 +1,9 @@
 from django.db import models
 from django.core.files import File
 
-import urllib2
+import urllib.request
 import datetime
+import time
 import tempfile
 import logging
 from django.utils import timezone
@@ -14,8 +15,8 @@ TIMEOUT=3600 # check after 1 hour
 class CachedImage(models.Model):
     url = models.URLField(max_length=255, unique=True)
     image = models.ImageField(upload_to="cached_images", blank=True)
-    create_date = models.DateTimeField(auto_now_add=True)
-    update_date = models.DateTimeField(auto_now=True)
+    create_date = models.DateTimeField(auto_now_add=True, blank=True, null=True)
+    update_date = models.DateTimeField(auto_now=True, blank=True, null=True)
 
     TIMEOUT=datetime.timedelta(seconds=TIMEOUT)
     
@@ -27,9 +28,10 @@ class CachedImage(models.Model):
         if self.url:
             ## not sure how this is going to fail on gigantic files, but guess
             # we'll see (after we've DOS'd ourselves a few times)
-            res = urllib2.urlopen(self.url)
-            modified = res.info().getdate('last-modified')
-            if modified > self.update_date:
+            res = urllib.request.urlopen(self.url)
+            modified = time.strptime(res.headers['last-modified'], '%a, %d %b %Y %H:%M:%S %Z')
+            print("=== ", modified)
+            if modified > self.update_date.timetuple():
                 # need to be re-cached
                 logger.info("Upstream file %s has been updated, time to re-download" % self.url)
                 fd = tempfile.TemporaryFile()

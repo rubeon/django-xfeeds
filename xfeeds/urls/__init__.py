@@ -9,3 +9,5 @@ urlpatterns = [
     url(r'all/$', feed.FeedItemListView.as_view(paginate_by=50), name="feeditem-list"),
     url(r'feeditem/(?P<pk>\d+)$', feed.FeedItemDetailView.as_view(), name="feeditem-detail"),
     ]
+
+__all__ = [urlpatterns]

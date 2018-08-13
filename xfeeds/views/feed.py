@@ -3,7 +3,7 @@ from django.views.generic import ListView
 from django.views.generic import DetailView
 from django.views.generic.edit import CreateView
 from django.views.generic.edit import UpdateView
-from django.core.urlresolvers import reverse_lazy
+from django.urls import reverse_lazy
 
 from ..models.feed import FeedItem
 from ..models.feed import Feed
@@ -22,7 +22,7 @@ class FeedItemDetailView(DetailView):
     def get(self, *args, **kwargs):
         # mark this as read
         obj = self.get_object()
-        if self.request.user.is_authenticated():
+        if self.request.user.is_authenticated:
             logger.info("Marking %s read for %s" % (obj, self.request.user))
             si = SeenItem(content_object=obj, user=self.request.user)
             si.save()
@@ -34,9 +34,9 @@ class FeedListView(ListView):
     def get_context_data(self, *args, **kwargs):
         logger.debug("%s.%s.get_context_data entered" % (__name__, self))
         context = super(self.__class__, self).get_context_data(*args, **kwargs)
-        print type(context)
+        print( type(context))
         # make a queryset for seen items
-        if self.request.user.is_authenticated():
+        if self.request.user.is_authenticated:
             seen_items = [si.content_object for si in SeenItem.objects.filter(user=self.request.user)]
         else:
             # FIXME: this can be put into session data, HTML database, etc.
@@ -52,7 +52,7 @@ class FeedDetailView(DetailView):
     
     def get_context_data(self, *args, **kwargs):
         context = super(self.__class__, self).get_context_data(*args, **kwargs)
-        print type(context)
+        print( type(context))
         # make a queryset for seen items
         seen_items = [si.content_object for si in SeenItem.objects.filter(user=self.request.user)]
         # user = self.request.user
@@ -61,14 +61,14 @@ class FeedDetailView(DetailView):
         # else:
         #     read_items = ['a','b','c']
         # context['unread_items']=unread_items
-        print "--", seen_items
+        print( "--", seen_items)
         context['seen_items']=seen_items
         return context
         
 class FeedCreateView(CreateView):
     model = Feed
     fields = ['feed_url']
-    success_url = reverse_lazy('xfeeds:feed-detail')    
+    success_url = reverse_lazy('xfeeds:feed-detail')
     def form_valid(self, form):
         form.instance = tasks.url_to_feed(form.instance.feed_url)
         self.object = form.instance

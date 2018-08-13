@@ -19,13 +19,13 @@ class TestFeeds(TestCase):
         
     def test_fetch_feed_yb(self):
         res = tasks.parse_feed(self.feed_url_yb)
-        self.assertTrue(res.has_key('feed'))
-        self.assertTrue(res.has_key('items'))
+        self.assertTrue('feed' in res)
+        self.assertTrue('items' in res)
     
     def test_fetch_feed_wp(self):
         res=tasks.parse_feed(self.feed_url_wp)
-        self.assertTrue(res.has_key('feed'))
-        self.assertTrue(res.has_key('items'))
+        self.assertTrue('feed' in res)
+        self.assertTrue('items' in res)
         
     def test_fetch_feed_invalid(self):
         res = tasks.url_to_feed(self.feed_url_invalid)
@@ -46,7 +46,7 @@ class TestFeeds(TestCase):
     
     def test_unreliable_feeds(self):
         for url in self.test_feeds:
-            print url
+            print(url)
             feed = tasks.url_to_feed(url)
             if feed:
                 tasks.update_items(feed)

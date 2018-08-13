@@ -1,4 +1,6 @@
-from __future__ import unicode_literals
+import os
+import urllib.request
+import logging
 
 from django.db import models
 from django.contrib.auth.models import User
@@ -7,12 +9,8 @@ from django.contrib.contenttypes.fields import GenericRelation
 from .tag import TaggedItem, SeenItem
 from .media import CachedImage
 # from ..parser import tasks
+from django.urls import reverse
 
-import os
-
-from django.core.urlresolvers import reverse
-
-import logging
 logger = logging.getLogger(__name__)
 
 class Feed(models.Model):
@@ -42,7 +40,10 @@ class Feed(models.Model):
     docs = models.URLField(blank=True)
     cloud = models.TextField(blank=True)
     ttl = models.IntegerField(default=3600)
-    image = models.ForeignKey('CachedImage', null=True)
+    image = models.ForeignKey('CachedImage', 
+                              null=True,
+                              blank=True,
+                              on_delete=models.CASCADE)
     icon = models.FileField(blank=True, upload_to="xfeeds/feed_icons/")
     rating = models.CharField(blank=True, max_length=255)
     textInput = models.CharField(blank=True, max_length=255)
@@ -63,7 +64,7 @@ class Feed(models.Model):
             return self.feed_title
         else:
             return self.feed_url
-    
+    __str__ = __unicode__
 class FeedCategory(models.Model):
     title = models.CharField(max_length=255)
     feeds = models.ManyToManyField('Feed')
@@ -83,7 +84,7 @@ class FeedItem(models.Model):
     """
     Keeps track of individual items in feeds
     """
-    source = models.ForeignKey('Feed')
+    source = models.ForeignKey('Feed', on_delete=models.CASCADE)
     guid = models.CharField(max_length=255)
     pubDate = models.DateTimeField()
     title = models.CharField(max_length=255)
@@ -112,7 +113,7 @@ class FeedItem(models.Model):
             return self.title
         else:
             return self.link
-    
+
 class FeedItemCategory(models.Model):
     title = models.CharField(max_length=255)
     items = models.ManyToManyField('FeedItem')
@@ -123,24 +124,24 @@ class FeedItemCategory(models.Model):
 #     image = models.ImageField(upload_to="cached_images", blank=True)
 #     create_date = models.DateTimeField(auto_now_add=True)
 #     update_date = models.DateTimeField(auto_now=True)
-# 
+#
 #     TIMEOUT=3600 # in seconds ..?
-#     
+#
 #     def cache(self):
 #         """
 #         Store image locally if we have a URL
 #         """
-# 
+#
 #         if self.url and not self.image:
 #             ## not sure how this is going to fail on gigantic files, but guess
 #             # we'll see (after we've DOS'd ourselves a few times)
-#             res = urllib2.urlopen(self.url)
+#             res = urllib.request.urlopen(self.url)
 #             fd = tempfile.TemporaryFile()
 #             fd.write(res.read())
 #             fd.seek(0)
 #             self.image.save(os.path.basename(self.url),File(fd))
 #             self.save()
-#     
+#
 #     @property
 #     def stale(self):
 #         return timezone.now() > self.TIMEOUT
