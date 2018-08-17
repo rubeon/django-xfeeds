@@ -6,6 +6,8 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.core.files import File
 from django.contrib.contenttypes.fields import GenericRelation
+from django.utils import timezone
+
 from .tag import TaggedItem, SeenItem
 from .media import CachedImage
 # from ..parser import tasks
@@ -24,7 +26,8 @@ class Feed(models.Model):
     
     date_added = models.DateTimeField(auto_now_add=True)
     last_update = models.DateTimeField(auto_now=False)
-
+    etag = models.CharField(max_length=255, blank=True, null=True)
+    last_modified = models.DateTimeField(auto_now=False, blank=True, null=True)
     # RSS metadata    
     language = models.CharField(blank=True, max_length=255)
     copyright = models.TextField(blank=True)
@@ -56,8 +59,21 @@ class Feed(models.Model):
     
     tags = GenericRelation(TaggedItem, related_query_name="feeds")
     
+    @property
+    def needs_update(self):
+        """
+        Determines if time since the last update was greater than ttl
+        """
+        if timezone.is_naive(self.last_update):
+            lu =  timezone.make_aware(self.last_update)
+        else:
+            lu = self.last_update
+
+        td = timezone.now() - lu
+        return td.total_seconds() > self.ttl
+    
     def get_absolute_url(self):
-        return reverse('feed-detail', kwargs={'pk':self.pk})
+        return reverse('xfeeds:feed-detail', kwargs={'pk':self.pk})
         
     def __unicode__(self):
         if len(self.feed_title) > 0:
@@ -68,7 +84,15 @@ class Feed(models.Model):
 class FeedCategory(models.Model):
     title = models.CharField(max_length=255)
     feeds = models.ManyToManyField('Feed')
-
+    def __unicode__(self):
+        """
+        What this looks like in the Admin lists
+        """
+        if len(self.title) > 0:
+            return self.title
+        else:
+            return "Untitled Category"
+    __str__ = __unicode__
 
 class UnseenFeedItemsManager(models.Manager):
     def for_user(self, user):
@@ -107,7 +131,9 @@ class FeedItem(models.Model):
             return True
         else:
             return False
-    
+    def get_absolute_url(self):
+        return reverse('xfeeds:feeditem-detail', kwargs={'pk':self.pk})    
+
     def __unicode__(self):
         if len(self.title) > 0:
             return self.title
@@ -117,6 +143,11 @@ class FeedItem(models.Model):
 class FeedItemCategory(models.Model):
     title = models.CharField(max_length=255)
     items = models.ManyToManyField('FeedItem')
+    def __unicode__(self):
+        if len(self.title) > 0:
+            return self.title
+        else:
+            return self.link
     
 
 # class CachedImage(models.Model):

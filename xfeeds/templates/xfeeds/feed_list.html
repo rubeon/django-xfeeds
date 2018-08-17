@@ -1,44 +1,25 @@
 {% extends "base.html" %}
+{% block contentnav %}
+<!-- gonna include the leftnav here -->
+<a href="{% url 'xfeeds:feed-add' %}">Add Feed URL</a>
+{% endblock %}
 {% block maincontent %}
 <!-- xfeeds/feeditem_list.html -->
 <h2>All Feeds</h2>
-<div class="container">
-
 {% for object in object_list %}
-<div class="row">
-    <div class="col-md-12">
-
-        <h3><a id="{{ object.id }}" href="{% url "xfeeds:feeditem-detail" pk=object.id %}?rp={{ page_obj.number }}">{{ object.feed_title }}</a></h3>
+<h3><a href="{% url "xfeeds:feeditem-detail" pk=object.id %}?rp={{ page_obj.number }}">{{ object.feed_title }}</a></h3>
         <p><img src="{{ object.image.url }}"></p>
-    </div>
-</div>
 {% for feeditem in object.feeditem_set.all %}
 {% if forloop.first %}
-<div class="row">
-    <div class="col-md-12">
-        <p><strong><a id="{{ feeditem.id }}" href="{% url "xfeeds:feeditem-detail" pk=feeditem.id %}?rp={{ page_obj.number }}">{{ feeditem.title }}</a>{% if feeditem not in seen_items %}NEW!{% endif %}</strong></p>
-        <p>{{ feeditem.description|truncatewords_html:60|safe }}</p>
-    </div>
-    <div class="clearfix visible-xs-block"></div>
-    
-</div>
+<p><a id="{{ feeditem.id }}" href="{% url "xfeeds:feeditem-detail" pk=feeditem.id %}?rp={{ page_obj.number }}">{{ feeditem.title }}</a>
+    {% if feeditem not in seen_items %}NEW!{% endif %}</p>
+        <p>{{ feeditem.description|safe }}</p>
 {% else %}
-{% if forloop.even %}
-<div class="row">
+<p><a href="{% url "xfeeds:feeditem-detail" pk=feeditem.id %}?rp={{ page_obj.number }}">{{ feeditem.title }}</a>{% if feeditem not in seen_items %}NEW!{% endif %}</p>
+        <p>{{ feeditem.description|safe }}</p>
 {% endif %}
-    <div class="col-md-4 col-xs-6">
-        <p><strong><a id="{{ feeditem.id }}" href="{% url "xfeeds:feeditem-detail" pk=feeditem.id %}?rp={{ page_obj.number }}">{{ feeditem.title }}</a>{% if feeditem not in seen_items %}NEW!{% endif %}</strong></p>
-        <p>{{ feeditem.description|truncatewords_html:60|safe }}</p>
-    </div>
-{% if forloop.odd %}
-  <div class="clearfix visible-xs-block"></div>
-
-</div>
-{% endif %}
-
-{% endif %}
-{% endfor %}
 
 {% endfor %}
 </div>
+{% endfor %}
 {% endblock %}

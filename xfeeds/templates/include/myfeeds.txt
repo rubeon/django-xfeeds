@@ -1,0 +1,14 @@
+{% load feed_tags %}
+<h3>Subscriptions</h3>
+{% if request.user.is_authenticated %}
+<ul>
+{% my_feeds as feeds %}
+{% for feed in feeds %}
+<li>
+<a href="{{ feed.get_absolute_url }}">{{ feed.feed_title }}</a>{% if object.id == feed.id %}&larr;{% endif %}
+</li>
+{% endfor %}
+</ul>
+{% else %}
+<a href="/accounts/login/">Login to subscribe</a>
+{% endif %}

@@ -1,7 +1,26 @@
 {% extends "base.html" %}
+
 {% block maincontent %}
+<script>
+    function lookup_feeds() {
+        pageUrl = $('#id_feed_url').val()
+        data = {
+            'url': pageUrl,
+            'csrfmiddlewaretoken': $('input[name=csrfmiddlewaretoken]').val()
+        };
+        console.log(data);
+        $('#feedlist').load('lookup_feeds', data);
+    };
+
+</script>
 <form action="" method="post">{% csrf_token %}
     {{ form.as_p }}
+    <input type="button" id="check_feeds_button" value="Check feeds" onClick="lookup_feeds()">
     <input type="submit" value="Update" />
 </form>
+<div id="feedlist">
+    <ul>
+    </ul>
+</div>
 {% endblock %}
+

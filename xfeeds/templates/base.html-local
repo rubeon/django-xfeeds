@@ -1,6 +1,10 @@
 {% block maincontent %}
 <h1>Howdy!</h1>
 {% endblock %}
+
+{% block leftnav %}Left Nav!!{% endblock %}
+{% block rightnav %}Right Nav!{% endblock %}
+
 {% block pager %}
 {% endblock %}
 {% block footer %}

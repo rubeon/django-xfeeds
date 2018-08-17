@@ -1,0 +1,53 @@
+
+*** These modified files were found in JOE when it aborted on Fri Aug 17 19:08:03 2018
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+2+3
+e
+pi
+2==1
+ans
+
+*** File '(Unnamed)'
+\n
+sudo yum
+'
+urllib.parse
+Exception as e
+, on_delete
+Exception as 
+Exception as 
+Exception as
+as e
+
+*** File '(Unnamed)'
+urls
+demo
+Declar
+116
+sec
+rsc=
+src
+urlp
+DEBUG
+ALLOW
+
+*** File '(Unnamed)'
+search_indexes.py
+search_indexes.py
+../django-xfeeds/xfeeds/templates/search/indexes/xfeeds/feeditem_text.txt
+search_indexes.py
+search_indexes.py
+search_indexes.py
+xfeedstester/urls.py
+xfeedstester/settings.py
+templates/search/search.html
+templates/search/search.html
+feeditem_list.html
+
+*** File '* Startup Log *'
+Processing '/usr/local/Cellar/joe/4.4/etc/joe/joerc'...
+Processing '/usr/local/Cellar/joe/4.4/etc/joe/ftyperc'...
+Finished processing /usr/local/Cellar/joe/4.4/etc/joe/ftyperc
+Finished processing /usr/local/Cellar/joe/4.4/etc/joe/joerc

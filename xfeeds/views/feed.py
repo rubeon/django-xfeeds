@@ -1,3 +1,11 @@
+import urllib.request 
+import urllib.parse 
+
+import feedparser
+
+from bs4 import BeautifulSoup as soup
+
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.views.generic import ListView
 from django.views.generic import DetailView
@@ -16,6 +24,16 @@ logger = getLogger(__name__)
 
 class FeedItemListView(ListView):
     model = FeedItem
+    def get_queryset(self):
+        """
+        Override this, so can personalize view
+        """
+        if self.request.user.is_authenticated:
+            user_feeds = FeedItem.objects.filter(source__subscribers=self.request.user).order_by('-pubDate')
+        else:
+            user_feeds = FeedItem.objects.all().order_by('-pubDate')
+        return user_feeds
+        
     
 class FeedItemDetailView(DetailView):
     model = FeedItem
@@ -27,10 +45,9 @@ class FeedItemDetailView(DetailView):
             si = SeenItem(content_object=obj, user=self.request.user)
             si.save()
         return super(self.__class__, self).get(self, *args, **kwargs)
-    
+
 class FeedListView(ListView):
     model = Feed
-    
     def get_context_data(self, *args, **kwargs):
         logger.debug("%s.%s.get_context_data entered" % (__name__, self))
         context = super(self.__class__, self).get_context_data(*args, **kwargs)
@@ -52,16 +69,17 @@ class FeedDetailView(DetailView):
     
     def get_context_data(self, *args, **kwargs):
         context = super(self.__class__, self).get_context_data(*args, **kwargs)
-        print( type(context))
         # make a queryset for seen items
-        seen_items = [si.content_object for si in SeenItem.objects.filter(user=self.request.user)]
+        if self.request.user.is_authenticated:
+            seen_items = [si.content_object for si in SeenItem.objects.filter(user=self.request.user)]
+        else:
+            seen_items = []
         # user = self.request.user
         # if user.is_authenticated:
         #     read_items = self.model.feeditems_set.seen_by(user=user)
         # else:
         #     read_items = ['a','b','c']
         # context['unread_items']=unread_items
-        print( "--", seen_items)
         context['seen_items']=seen_items
         return context
         
@@ -86,3 +104,18 @@ class FeedEditView(UpdateView):
         # update the feed items on this feed
         tasks.update_items(form.instance)
         return super(self.__class__, self).form_valid(form)
+
+@login_required
+def list_feeds_url(request):
+    """
+    Gets feeds from a particular URL
+    """
+    data = {}
+    tmpl = """<li><a href="#" onclick="$('#id_feed_url').val('{f}')">{f}</a></li>"""
+    if request.method == 'POST':
+        url = request.POST.get('url')
+        feeds = tasks.find_feed(url)
+        data['feeds'] = feeds
+        data['html'] = "".join([tmpl.format(f=f) for f in feeds])
+    print(data)
+    return HttpResponse(data['html'])

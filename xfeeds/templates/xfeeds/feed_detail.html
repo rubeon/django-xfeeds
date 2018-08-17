@@ -1,40 +1,22 @@
 {% extends "base.html" %}
+{% block contentnav %}
+{% include "include/feednav.txt" %}
+{% include "include/myfeeds.txt" %}
+{% include "include/topfeeds.txt" %}
+{% include "include/busiestfeeds.txt" %}
+{% endblock %}
 {% block maincontent %}
 <!-- xfeeds/feeditem_list.html -->
-<h2>All Feeds</h2>
-<div class="container">
-
-<div class="row">
-    <div class="col-md-12">
-        <p><img src="{{ object.image.url }}"></p>
-        <h3><a id="{{ object.id }}" href="{% url "xfeeds:feeditem-detail" pk=object.id %}?rp={{ page_obj.number }}">{{ object.feed_title }}</a></h3>
-    </div>
-</div>
+<h2>{{ object.feed_title }}</h2>
 {% for feeditem in object.feeditem_set.all %}
-{% if forloop.first %}
-<div class="row">
-    <div class="col-md-12">
-        <p><strong><a id="{{ feeditem.id }}" href="{% url "xfeeds:feeditem-detail" pk=feeditem.id %}?rp={{ page_obj.number }}">{{ feeditem.title }}</a>{% if feeditem not in seen_items %}NEW!{% endif %}</strong></p>
-        <p>{{ feeditem.description|truncatewords_html:60|safe }}</p>
-    </div>
-    <div class="clearfix visible-xs-block"></div>
-    
-</div>
-{% else %}
-{% if forloop.even %}
-<div class="row">
-{% endif %}
-    <div class="col-md-4 col-xs-6">
-        <p><strong><a id="{{ feeditem.id }}" href="{% url "xfeeds:feeditem-detail" pk=feeditem.id %}?rp={{ page_obj.number }}">{{ feeditem.title }}</a>{% if feeditem not in seen_items %}NEW!{% endif %}</strong></p>
-        <p>{{ feeditem.description|truncatewords_html:60|safe }}</p>
-    </div>
-{% if forloop.odd %}
-  <div class="clearfix visible-xs-block"></div>
-
-</div>
-{% endif %}
-
-{% endif %}
+{% ifchanged %}
+<article>
+<header>
+<h3>{{ feeditem.pubDate|date:"d F Y" }}</h3>
+{% endifchanged %}
+<p><strong><a id="{{ feeditem.id }}" href="{% url "xfeeds:feeditem-detail" pk=feeditem.id %}?rp={{ page_obj.number }}">{{ feeditem.title }}</a></strong>{% if feeditem.author %} by {{ feeditem.author }}{% endif %}
+{% if feeditem not in seen_items %} &rarr; NEW!{% endif %}</p>
+</header>
+  <p>{{ feeditem.description|truncatewords_html:120|safe }}</p>
 {% endfor %}
-</div>
 {% endblock %}

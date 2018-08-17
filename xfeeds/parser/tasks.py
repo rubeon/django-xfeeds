@@ -5,7 +5,7 @@ import urllib.request
 import feedparser
 
 from datetime import datetime
-from time import mktime
+from time import mktime, localtime
 from pprint import pprint, pformat
 from bs4 import BeautifulSoup as soup
 from django.core.exceptions import ObjectDoesNotExist, ValidationError
@@ -39,7 +39,13 @@ def url_to_feed(url):
     """
     # pprint"Url to feed entered")
     LOGGER.debug("%s.url_to_feed entered" % __name__)
-    parsed_feed = parse_feed(url)['feed']
+    res = parse_feed(url)
+
+    # minor kluge here
+    parsed_feed = res['feed']
+    parsed_feed['etag'] = getattr(res, 'etag', None)
+    parsed_feed['last_modified'] = getattr(res, 'last_modified', None)
+
     # pprintparsed_feed)
     # some minor validation...
     for required_key in ['title',]:
@@ -50,13 +56,17 @@ def url_to_feed(url):
     feed_items = update_items(feed)
     return feed
     
-def update_items(feed):
+def update_items(feed, force=False):
     """
     might be an instance method?
     """
-    LOGGER.debug("%s.update_items entered" % __name__)
-    items = parse_feed(feed.feed_url)['items']
-    res = add_items(feed, items)
+    if feed.needs_update or force:
+        LOGGER.debug("%s.update_items entered" % __name__)
+        items = parse_feed(feed.feed_url, etag=feed.etag, modified=feed.last_update)['items']
+        res = add_items(feed, items)
+    else:
+        print("Skipping (update not needed)")
+        res = 0
     return res
 
 def get_feed_image(parsed_feed):
@@ -105,6 +115,9 @@ def add_feed(parsed_feed, feed_url):
     #
     try:
         f = Feed.objects.get(feed_url=feed_url)
+        f.etag = parsed_feed['etag']
+        f.last_modified = parsed_feed['last_modified']
+        f.save()
     except Feed.DoesNotExist:
         # needs to be added
         if parsed_feed.get('updated', None):
@@ -121,7 +134,8 @@ def add_feed(parsed_feed, feed_url):
             'pubDate': updated,
             'lastBuildDate': updated,
             'skipHours': parsed_feed.get('skipHours', 1),
-            'feed_url' : feed_url
+            'feed_url' : feed_url,
+            'etag' : parsed_feed['etag'],
         }
         struct['image'] = get_feed_image(parsed_feed)
         LOGGER.debug(struct)
@@ -136,10 +150,16 @@ def add_items(feed, parsed_items):
     for item in parsed_items:
         # check of this has already been indexed
         # pprintitem['id'])
-        
+        # pprint(item)
+        if not id in item:
+            item['id'] = item['link']
+        pubDate = localtime()
         try:
             FeedItem.objects.get(guid=item['id'])
             continue
+        # except KeyError as e:
+        #     # item doesn't have a guid, for shame!
+        #     item['id'] = item['link']
         except FeedItem.DoesNotExist:
             # figure out the pub_date
             if 'published_parsed' in item:
@@ -177,15 +197,56 @@ def add_items(feed, parsed_items):
             count = count + 1
     return count
 
-def get_feed(url):
+def find_feed(site):
     """
-    Parses the page, and sees if it's an RSS page
-    If not, grabs the first link it can find.
+    Parses a page, and returns a list of 
+    atom / RSS feeds
     """
+    parsed_url = urllib.parse.urlparse(site)
+    if not parsed_url.scheme:
+        site = 'http://' + site 
+        parsed_url = urllib.parse.urlparse(site)
+        
+    req = urllib.request.Request(
+        site, 
+        data=None, 
+        headers={
+            'User-Agent': FAKE_AGENT
+        }
+    )
 
-def parse_feed(url):
+    
+    raw = urllib.request.urlopen(req).read()
+    result = []
+    possible_feeds = []
+    html = soup(raw, features='html.parser')
+    feed_urls = html.findAll("link", rel="alternate")
+    for f in feed_urls:
+        t = f.get("type",None)
+        if t:
+            if "rss" in t or "xml" in t:
+                href = f.get("href",None)
+                if href:
+                    possible_feeds.append(href)
+    parsed_url = urllib.parse.urlparse(site)
+    if not parsed_url.scheme:
+        parsed_url = urllib.parse.urlparse('http://' + site)
+    base = parsed_url.scheme+"://"+parsed_url.hostname
+    atags = html.findAll("a")
+    for a in atags:
+        href = a.get("href",None)
+        if href:
+            if "xml" in href or "rss" in href or "feed" in href:
+                possible_feeds.append(base+href)
+    for url in list(set(possible_feeds)):
+        f = feedparser.parse(url)
+        if len(f.entries) > 0:
+            if url not in result:
+                result.append(url)
+    return(result)
+
+def parse_feed(url, etag=None, modified=None):
     # use urllib to get the text
-    # First, create a fake user agent. Some sites block bots. (boo)
-    d = feedparser.parse(url)
+    d = feedparser.parse(url, etag=etag, modified=modified)
     # pprintd)
     return d

@@ -1,17 +1,22 @@
 {% extends "base.html" %}
-
+{% block contentnav %}
+{% include "include/myfeeds.txt" %}
+{% include "include/topfeeds.txt" %}
+{% include "include/busiestfeeds.txt" %}
+{% endblock %}
 {% block maincontent %}
 <!-- xfeeds/feeditem_list.html -->
-<h1>All Feed Items</h1>
-<ul>
+<h2>All Feed Items</h2>
 {% for object in object_list %}
+<article>
 {% ifchanged %}
-<li><h2>{{ object.source.feed_title }}</h2></li>
+<h3>{{ object.pubDate |date:"d F" }}</h3>
 {% endifchanged %}
 {% ifchanged %}
-<li><h3>{{ object.pubDate }}</li>
+<h3><a href="{{ object.source.get_absolute_url }}">{{ object.source.feed_title }}</a></h2>
 {% endifchanged %}
-<li><a id="{{ object.id }}" href="{% url "xfeeds:feeditem-detail" pk=object.id %}?rp={{ page_obj.number }}">{{ object.title}}</a></li>
+<p>{{ object.description|safe|truncatewords:"20" }}</p>
+<a id="{{ object.id }}" href="{% url "xfeeds:feeditem-detail" pk=object.id %}?rp={{ page_obj.number }}">{{ object.title}}</a>
 {% endfor %}
-</ul>
+</article>
 {% endblock %}

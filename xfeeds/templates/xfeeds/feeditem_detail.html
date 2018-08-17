@@ -1,14 +1,18 @@
 {% extends "base.html" %}
-{% block pagetitle %}{{ object.title }} // Xfeeds {% endblock %}
+{% block extratitle %}{{ object.title }}{% endblock %}
+{% block contentnav %}
+{% include "include/feeditemnav.txt" %}
+{% include "include/myfeeds.txt" %}
+{% include "include/related.txt" %}
+{% endblock %}
 {% block maincontent %}
-<!-- xfeeds/feeditem_list.html -->
+<article>
 <header>
     <h2><a href="{{ object.link }}">{{ object.title }}</a></h2>
+    <p>{{ object.pubDate }}
+        {% if object.author %}<p>by {{ object.author }}</p>{% endif %}
 </header>
-<article>
-
-    {{ object.description|safe }}
-
+{{ object.description|safe }}
 <footer><a href="{{ object.link }}">Continue reading on '{{ object.source.feed_title }}'</a></footer>
 </article>
 

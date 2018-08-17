@@ -1,0 +1,8 @@
+{% load more_like_this %}
+{% more_like_this object as related_content limit 10 %}
+<h3>More like this</h3>
+<ul>
+{% for related in related_content %}
+<li><a href="{{ related.object.get_absolute_url }}">{{ related.title }}</a></li>
+{% endfor %}
+</ul>

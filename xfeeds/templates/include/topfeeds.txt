@@ -1,0 +1,8 @@
+{% load feed_tags %}
+<h3>Top Feeds</h3>
+<ul>
+{% top_feeds as feeds %}
+{% for feed in feeds|slice:":10" %}
+<li><a href="{{ feed.get_absolute_url }}">{{ feed.feed_title }}</a></li>
+{% endfor %}
+</ul>
